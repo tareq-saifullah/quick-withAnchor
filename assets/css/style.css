@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+    margin: 50px 0;
+
+}
+
+.col-1-2 {
+    flex-basis: 50%;
+}
+
+.col-1-3 {
+    flex-basis: 33.33%;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.3;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* header area css */
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navigation {}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+.navigation ul li {}
+
+.navigation ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #000;
+}
+
+/*header css ends*/
+
+/*banner css strats*/
+.banner {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.banner .heading {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.banner .heading h2 {
+    margin-bottom: 15px;
+}
+
+span.blue {
+    color: #2fa4e8;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+/*banner css ends*/
+
+/*About section css starts*/
+.about {
+    margin: 50px 0;
+}
+
+section.about .heading {
+    width: 70%;
+}
+
+.complete-project {
+    width: 60%;
+    text-align: right;
+    margin-left: 178px;
+    padding-top: 40px;
+}
+
+.complete-project h2 {
+    color: #ec4343dd;
+    padding: 10px 0;
+}
+
+.complete-project p {
+    text-align: justify;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.about > .heading {}
+
+.about > .heading h2 {}
+
+/*About section css ends*/
+
+/*service section css*/
+
+.services {
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+a.service-item {
+    margin: 20px 15px;
+    text-align: left;
+    padding: 0 30px;
+    min-height: 470px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.bg-1 {
+    background-color: #fdebed;
+}
+
+.bg-2 {
+    background-color: #ebf9f4;
+}
+
+.bg-3 {
+    background-color: #fff7e8;
+}
+
+.service-item img {
+    width: 100%;
+    height: 300px;
+}
+
+.service-details {
+    padding: 20px 0;
+}
+
+.service-details h3 {}
+
+.service-details h3:first-letter {
+    text-transform: uppercase;
+}
+
+.service-details p {
+    margin: 10px 0px;
+}
+
+/*service area ends*/
+
+/*footer area starts*/
+
+footer {
+    background-color: #008aff;
+    text-align: center;
+}
+
+footer p {
+    padding: 25px 0;
+    color: #ffffffb3;
+    font-size: 13px;
+}
+
+span.footer-color {
+    color: #FFF;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
